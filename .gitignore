@@ -1,0 +1,8 @@
+.idea
+.cache
+build
+buildDir
+
+subprojects/fmt-*
+subprojects/packagecache
+

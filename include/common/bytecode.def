@@ -1,0 +1,38 @@
+#pragma once
+
+#define _BYTECODE_LIST \
+  B(Nop, "nop") \
+	B(Push, "push") \
+	B(Pop, "pop") \
+	B(load, "load") \
+	B(Store, "store") \
+\
+	B(Add, "add") \
+	B(Sub, "sub") \
+	B(Mul, "mul") \
+	B(Div, "div") \
+	B(Mod, "mod") \
+\
+	B(And, "and") \
+	B(Or, "or") \
+	B(Xor, "xor") \
+	B(Not, "not") \
+\
+	B(Shl, "shl") \
+	B(Shr, "shr") \
+\
+	B(cmp, "cmp") \
+	B(cgt, "cgt") \
+	B(clt, "clt") \
+	B(cge, "cge") \
+	B(cle, "cle") \
+	B(jmp, "jmp") \
+	B(jeq, "jeq") \
+	B(jne, "jne") \
+\
+	B(Call, "call") \
+	B(Ret, "ret") \
+\
+	B(Exit, "exit") \
+\
+	B(INVALID, "invalid") \
